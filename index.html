@@ -12,11 +12,11 @@
         <h1>Go Travel</h1>
       </div>
       <div>
-        <h2>Home</h2>
-        <h2>About Us</h2>
-        <h2>Destination</h2>
-        <h2>Testimonials</h2>
-        <h2>Contact Us</h2>
+        <h2><a href="#">Home</a></h2>
+        <h2><a href="#about-us">About Us</a></h2>
+        <h2><a href="#destination">Destination</a></h2>
+        <h2><a href="#testimonial">Testimonials</a></h2>
+        <h2><a href="#contact-us">Contact Us</a></h2>
       </div>
 
       <div>
@@ -25,18 +25,18 @@
       </div>
     </nav>
     <main>
-      <div><button>Left</button></div>
+      <div><button>&larr;</button></div>
       <div>
         <h2>Experience The Travel Luxury</h2>
         <h3>Some representative placeholder content for the third slide.</h3>
         <button>Explore Now</button>
       </div>
-      <div><button>Right</button></div>
+      <div><button>&rarr;</button></div>
     </main>
 
-    <section>
+    <section id="about-us">
       <div>
-        <h2>About Us</h2>
+        <h2 class="section-heading">About Us</h2>
         <h3>
           Our Journey is Started With a Determination To Travel All Around This
           World
@@ -49,28 +49,18 @@
         </p>
       </div>
       <div>
-        <img
-          src="https://gotravel123.netlify.app/assets/abt-us.jpg"
-          alt="alt-img"
-          width="50"
-          height="50"
-        />
+        <img src="images/abt.jpg" alt="alt-img" />
       </div>
     </section>
 
-    <section>
+    <section id="destination">
       <div>
-        <h2>Destination</h2>
+        <h2 class="section-heading">Destination</h2>
         <h3>Explore The Breath-Taking Adventures With Us</h3>
       </div>
       <div>
         <div>
-          <img
-            src="https://gotravel123.netlify.app/assets/des-1.jpg"
-            alt="alt-img"
-            width="50"
-            height="50"
-          />
+          <img src="images/des-1.jpg" alt="alt-img" />
           <h4>Get Into Wild In Indonesia</h4>
           <div>
             <p>3 Days 4 Nights</p>
@@ -78,12 +68,7 @@
           </div>
         </div>
         <div>
-          <img
-            src="https://gotravel123.netlify.app/assets/des-2.jpg"
-            alt="alt-img"
-            width="50"
-            height="50"
-          />
+          <img src="images/des-2.jpg" alt="alt-img" />
           <h4>Get Into Wild In Indonesia</h4>
           <div>
             <p>3 Days 4 Nights</p>
@@ -91,12 +76,7 @@
           </div>
         </div>
         <div>
-          <img
-            src="https://gotravel123.netlify.app/assets/des-3.jpg"
-            alt="alt-img"
-            width="50"
-            height="50"
-          />
+          <img src="images/des-3.jpg" alt="alt-img" />
           <h4>Get Into Wild In Indonesia</h4>
           <div>
             <p>3 Days 4 Nights</p>
@@ -104,12 +84,7 @@
           </div>
         </div>
         <div>
-          <img
-            src="https://gotravel123.netlify.app/assets/des-4.jpg"
-            alt="alt-img"
-            width="50"
-            height="50"
-          />
+          <img src="images/des-4.jpg" alt="alt-img" />
           <h4>Get Into Wild In Indonesia</h4>
           <div>
             <p>3 Days 4 Nights</p>
@@ -119,7 +94,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="testimonial">
       <div>
         <div><button>Left</button></div>
         <div>
@@ -136,24 +111,27 @@
       </div>
     </section>
 
-    <section>
-        <h3>Subscribe To Our News-Letter</h3>
-        <form>
-            <label for="email-address">Email Address</label>
-            <input type="email" id="email-address">
+    <section id="contact-us">
+      <h3>Subscribe To Our News-Letter</h3>
+      <form>
+        <label for="email-address">Email Address</label>
+        <input type="email" id="email-address" />
 
-            <label for="id-password">Password</label>
-            <input type="password" id="id-password">
+        <span>
+          <input type="checkbox" id="agree" />
+          <label for="agree">Agree All the Terms & Services</label>
+        </span>
+        <br />
 
-            <label for="agree">Agree All the Terms & Services</label>
-            <input type="checkbox" id="agree">
-
-            <input type="submit" value="Subscribe">
-        </form>
+        <input type="submit" value="Subscribe" />
+      </form>
     </section>
 
     <footer>
-        <h5>ThIs Website is Created For Educational Purposes Not For Any Commercial Use @2023</h5>
+      <h5>
+        ThIs Website is Created For Educational Purposes Not For Any Commercial
+        Use @2023
+      </h5>
     </footer>
   </body>
 </html>
